@@ -1,0 +1,10 @@
+.mainContainer {
+    padding: 6rem 6rem 1rem 6rem;
+    height: 100vh;
+    background-color: purple;
+}
+
+.chartContainer {
+    height: 100%;
+    background-color: red;
+}

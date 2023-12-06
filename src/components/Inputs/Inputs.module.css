@@ -1,0 +1,31 @@
+.grey_input {
+    background-color: var(--input-bg);
+    width: 100%;
+    min-width: 300px;
+}
+
+.main_container {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;   
+}
+
+.main_container input {
+    padding: 1rem 1rem;
+    border-radius: 15px;
+}
+
+.password_input_container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.icon{
+    fill: var(--eye-color);
+    position: absolute;
+    width: 1.5rem;
+    right: 1rem;
+}
+

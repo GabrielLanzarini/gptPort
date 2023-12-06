@@ -1,0 +1,132 @@
+.main_container {
+    display: flex;
+    padding: 1rem 6rem;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.main_container_ext {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.main_container_logged {
+    display: flex;
+    padding: 1rem 6rem;
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+}
+
+.main_container nav,
+.main_container_logged nav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.main_container a,
+.main_container_logged a {
+    font-size: 1rem;
+}
+
+.link_title {
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.link_title:hover {
+    color: var(--blue);
+}
+
+.blue_button,
+.red_button {
+    border-radius: 5px;
+    padding: 0.5rem 2rem;
+    color: white;
+}
+
+.closeIcon,
+.menuIcon {
+    display: none;
+}
+
+.blue_button {
+    background-color: var(--blue);
+    transition: background-color 0.2s;
+}
+
+.red_button {
+    background-color: var(--red);
+    transition: background-color 0.2s;
+}
+
+.red_button:hover {
+    background-color: var(--red-hover);
+}
+
+.blue_button:hover {
+    background-color: var(--blue-hover);
+}
+
+@media (max-width: 700px) {
+    .main_container {
+        position: fixed;
+        height: 100%;
+        padding: 0;
+        justify-content: flex-start;
+        z-index: 1;
+        left: 100%;
+        transition: left 0.5s;
+        background-color: white;
+        width: 100%;
+    }
+
+    .main_container nav,
+    .main_container_logged nav {
+        padding: 3rem 1rem;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: white;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .main_container a,
+    .main_container_logged a {
+        font-size: 1rem;
+        background-color: var(--input-bg);
+        width: 100%;
+        border-radius: 0.5rem;
+        color: #2f2f2f;
+        padding: 0.5rem 2rem;
+    }
+
+    .closeIcon {
+        display: block;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        fill: #2f2f2f;
+        width: 2rem;
+    }
+
+    .menuIcon {
+        display: block;
+        position: fixed;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        fill: #2f2f2f;
+        width: 2rem;
+    }
+
+    .main_container p,
+    .main_container_logged p {
+        display: none;
+    }
+
+}

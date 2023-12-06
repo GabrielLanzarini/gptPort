@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --blue: #2C7DA0;
+  --blue-hover: #378eb3;
+  --red: #FF6161;
+  --red-hover: #ff3d3d;
+  --input-bg: #dedede;
+  --eye-color: #818181
+}
+
+.menuIcon {
+  display: none;
+}
+
+input,
+input:focus {
+  border: none;
+  outline: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+
+* {
+  color: #2f2f2f;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+/* Personalizar o polegar (a parte arrastável da barra de rolagem) */
+::-webkit-scrollbar-thumb {
+  background-color: var(--input-bg);
+  border: solid white 2px;
+  border-radius: 1rem;
+}
+
+/* Personalizar a pista (a área onde o polegar se move) */
+::-webkit-scrollbar-track {
+  border-radius: 1rem;
+  background-color: white;
+}
