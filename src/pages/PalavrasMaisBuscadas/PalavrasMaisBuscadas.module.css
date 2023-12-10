@@ -1,7 +1,10 @@
 .mainContainer {
+     display: flex;
     padding: 6rem 6rem 1rem 6rem;
     height: 100vh;
     background-color: purple;
+    align-items: center;
+    justify-content: center;
 }
 
 .chartContainer {

@@ -4,6 +4,7 @@ import { NavBar } from '../../components/NavBar/NavBar'
 import { Link} from 'react-router-dom'
 import style from './Login.module.css'
 import React from "react";
+import img from './Aluno.jpg'
 
 export function Login() {
     return (
@@ -24,7 +25,7 @@ export function Login() {
                     <p>Não possui uma conta? <Link to="/cadastro" className={style.blue_text_small}>Cadastre-se agora!</Link></p>
                 </div>
                 <div>
-                    <p className={style.image}>Imagem</p>
+                    <img className={style.image_container} src={img}/>
                 </div>
             </div>
         </>

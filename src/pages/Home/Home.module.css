@@ -29,8 +29,8 @@
 
 
 .image_container {
-    background-color: var(--blue);
-    height: 80%;
+    height: 30rem;
+    width: 35rem;
 }
 
 .buttons_container {
@@ -63,6 +63,7 @@
 
     .image_container {
         visibility: hidden;
+
     }
 }
 

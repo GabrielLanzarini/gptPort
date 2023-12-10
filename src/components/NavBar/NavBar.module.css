@@ -70,6 +70,10 @@
 .blue_button:hover {
     background-color: var(--blue-hover);
 }
+.image_logo{
+    height: 5rem;
+    width: 5rem;
+}
 
 @media (max-width: 700px) {
     .main_container {
@@ -128,5 +132,6 @@
     .main_container_logged p {
         display: none;
     }
+
 
 }
