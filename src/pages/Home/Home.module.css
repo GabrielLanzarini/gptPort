@@ -62,7 +62,7 @@
     }
 
     .image_container {
-        visibility: hidden;
+        display: none;
 
     }
 }

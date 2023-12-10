@@ -21,7 +21,7 @@ export default function LoginProfessor() {
                     </div>
                     <button className={style.blue_button}><Link to="/palavrasMaisBuscadas" className={style.blue_button} >Login</Link></button>
                 </div>
-                <div>
+                <div> 
                     <img className={style.image_container} src={img}/>
                 </div>
             </div>

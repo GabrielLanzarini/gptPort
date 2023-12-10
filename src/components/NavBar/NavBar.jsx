@@ -34,7 +34,7 @@ export function NavBar() {
 export function NavBarLogged() {
     return (
         <div className={style.main_container_logged}>
-            <p>Image</p>
+                <img className={style.image_logo} src={img}/>
             <nav>
                 {/* <Link >Duvidas</Link> */}
                 <Link to="/duvidas" className={style.link_title} >Simulador</Link>

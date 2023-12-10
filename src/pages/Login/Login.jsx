@@ -21,10 +21,10 @@ export function Login() {
                         <DefaultInput name="email" title="E-mail" />
                         <PasswordInput name="password" title="Senha" />
                     </div>
-                    <button className={style.blue_button}>Login</button>
+                    <button className={style.blue_button}><Link to="/." className={style.blue_button} >Login</Link></button>
                     <p>Não possui uma conta? <Link to="/cadastro" className={style.blue_text_small}>Cadastre-se agora!</Link></p>
                 </div>
-                <div>
+                <div> 
                     <img className={style.image_container} src={img}/>
                 </div>
             </div>
@@ -56,7 +56,7 @@ export function Register() {
                         </div>
                     </div>
                     <div className={style.bottom_infos_container}>
-                        <button className={style.blue_button}>Cadastrar-se</button>
+                        <button className={style.blue_button}><Link to="/." className={style.blue_button} >Cadastrar-se</Link></button>
                         <p>Já possui uma conta? <Link to="/login" className={style.blue_text_small}>Faça o login agora!</Link></p>
                     </div>
                 </div>

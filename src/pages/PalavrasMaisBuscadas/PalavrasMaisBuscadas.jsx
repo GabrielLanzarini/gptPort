@@ -8,6 +8,7 @@ export function PalavrasMaisBuscadas() {
         <>
             <NavBar />
             <div className={style.mainContainer} >
+                <p className={style.blue_text}>Gráfico de palavras mais procuradas</p>
                 <img className={style.chartContainer} src={img}/>
             </div>
         </>

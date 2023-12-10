@@ -1,13 +1,24 @@
 .mainContainer {
-     display: flex;
+    display: flex;
     padding: 6rem 6rem 1rem 6rem;
     height: 100vh;
-    background-color: purple;
+    background-color: white;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
-
+.blue_text {
+    color: var(--blue);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
 .chartContainer {
     height: 100%;
-    background-color: red;
+}
+@media (max-width: 970px) {
+    .chartContainer {
+        display: flex;
+        width: 200%;
+        height: 40%;
+    }
 }
